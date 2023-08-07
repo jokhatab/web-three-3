@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Store</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.xyz/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="Website Icon" type="png" href="images/file.jpg">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-brand button-edit" href="#">JOO store</button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <button class="nav-link button-edit" href="#">Egypt Houses <span class="sr-only">(current)</span></button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link button-edit" href="#">Amirica Houses</button>
+        </li>
+        <li class="nav-item dropdown">
+          <button class="nav-link button-edit dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More Houses
+          </button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <button class="dropdown-item button-edit" href="#">House1</button>
+            <button class="dropdown-item button-edit" href="#">House2</button>
+            <button class="dropdown-item button-edit" href="#">House3</button>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button type="button" class="btn btn-primary ml-lg-3 ml-3 topofall" data-toggle="modal" data-target="#loginModal">
+          LOGIN
+          </button>
+          <div class="modal " id="loginModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header ">
+                <h5 class="modal-title ">LOGIN</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span>&times;</span>
+                </button>
+              </div>
+              <div class="modal-body ">
+                <form>
+                  <div class="form-group m-auto">
+                      <img src="images/loginIcon.png" width="40%" height="40%" alt="" class="m-auto mb-lg-3">
+                    <label for="username" class="w-100 mb-lg-3 text-dark">Enter your name</label>
+                    <input type="text" class="form-control w-100 mb-lg-3" id="username">
+                  </div>
+                  <div class="form-group">
+                    <label for="password" class=" w-100 mb-lg-3 text-dark">Password</label>  
+                    <input type="password" class="form-control w-100 mb-lg-3" id="password">
+                    <div class="custom-control custom-switch mt-lg-3">
+                      <input type="checkbox" class="custom-control-input" id="switch1">
+                      <label class="custom-control-label text-dark" for="switch1">Remember me</label>
+                    </div>       
+                  </div>
+                  <button type="submit" class="btn btn-primary mt-lg-3">Login</button>
+                  <button type="button" class="btn btn-secondary float-right mt-lg-3" data-dismiss="modal">
+                      Close
+                  </button>
+      </form>
+    </div>
+  </nav>
+  <!-- ///////////////// -->
+  <nav class="navbar ggggg position-fixed edits">
+    <ul class="navbar-nav  ">
+      <li class="nav-item  ">
+        <button class="nav-link button-edit text-primary pt-4" href="#"><i class="fa-brands fa-facebook-f some-designs"></i></button>
+      </li>
+      <li class="nav-item ">
+        <button class="nav-link  button-edit text-primary pt-4" href="#"><i class="fa-brands fa-twitter some-designs"></i></button>
+      </li>
+      <li class="nav-item ">
+        <button class="nav-link  button-edit text-primary pt-4" href="#"><i class="fa-brands fa-linkedin-in some-designs"></i></button>
+      </li>
+      <li class="nav-item ">
+        <button class="nav-link  button-edit text-primary pt-4" href="#"><i class="fa-brands fa-whatsapp some-designs"></i></button>
+      </li>
+      <li class="nav-item ">
+        <button class="nav-link  button-edit text-primary pt-4" href="#"><i class="fa-brands fa-instagram some-designs"></i></button>
+      </li>
+    </ul> 
+  </nav>
+<!-- //////////////////////////////////////////////// -->
+<div id="demo" class="carousel slide h-100" data-ride="carousel">
+  <ul class="carousel-indicators ">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active ioo">
+      <img src="images/h1.jpg" alt="Los Angeles">
+      <div class="carousel-caption">
+        <h3>House 1</h3>
+        <p>Modern houses in Egypt</p>
+      </div>
+    </div>
+    <div class="carousel-item ioo">
+      <img src="images/h2.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>House 2</h3>
+        <p>Modern houses in Egypt</p>
+      </div>
+    </div>
+    <div class="carousel-item ioo">
+      <img src="images/h3.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>House 3</h3>
+        <p>Modern houses in Egypt</p>
+      </div>
+    </div>
+    <div class="carousel-item ioo">
+      <img src="images/h4.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>House 1</h3>
+        <p>Modern houses in Egypt</p>
+      </div>
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+    <div class="container-fluid pt-5 text-center edit-color-nav" style=" width: 100%;">
+        <div class="container-fluid  bg-light shadow " style="border-radius: 50px 10px;">
+            <h2 class="pt-2 pb-2 font-weight-bold font-italic">WElcome in My website</h2>
+            <p class="pl-lg-3 pt-2 pb-2">this website talk about modern and beutiful houses in the word lets see more houses</p>
+            <button href="#" class="btn btn-primary mb-3">See more</button>
+        </div>
+<!-- //////////////////////// -->
+        <div id="accordion" class="text-left mt-5">
+            <div class="card">
+              <div class="card-header">
+                <a class="card-link font-weight-bold" data-toggle="collapse" href="#collapseOne">
+                  Modern Houses in Egypt
+                </a>
+              </div>
+              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium magni eaque neque minima hic excepturi aliquid minus magnam sapiente, maiores deleniti porro, laboriosam expedita. Libero dolorum molestiae consequuntur obcaecati sint?
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link font-weight-bold" data-toggle="collapse" href="#collapseTwo">
+                  Modern Houses in Amrica
+                </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos officia sequi beatae animi nulla, impedit placeat reiciendis porro rem mollitia repellendus iusto adipisci temporibus eligendi sint odio nemo tempore sit.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link font-weight-bold" data-toggle="collapse" href="#collapseThree">
+                  More Houses
+                </a>
+              </div>
+              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ipsum, ut, beatae provident sunt exercitationem ullam tempora nemo ipsa excepturi, omnis ipsam explicabo corporis quod repellat cum at voluptates eos!
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+          <div class="container-fluid mt-4">
+            <h4 class="">Write Your opinion of Egyption Houses</h4>
+            <button type="button" class="btn btn-primary float-left ml-5 mb-3" data-toggle="modal" data-target="#myModal" data-toggle="tooltip" title="Copied">
+                copy 
+              </button>        
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      copied
+                    </div>
+                    <div class="modal-footer border-0">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <textarea class="form-control" placeholder="Enter your opinion..." rows="5" id="comment "></textarea>
+          </div>
+          <div class="container-fluid mt-4">
+            <h4 class="">Write Your opinion of Egyption Houses</h4>
+            <button type="button" class="btn btn-primary float-left ml-5 mb-3" data-toggle="modal" data-target="#myModal" data-toggle="tooltip" title="Copied">
+              copy 
+            </button>        
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    copied
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+                  </div>
+                </div>
+              </div>
+            </div>    
+              <textarea class="form-control" placeholder="Enter your opinion..." rows="5" id="comment "></textarea>
+          </div>
+          <div class="container-fluid mt-4">
+            <h4 class="">Write Your opinion of Egyption Houses</h4>
+            <button type="button" class="btn btn-primary float-left ml-5 mb-3" data-toggle="modal" data-target="#myModal" data-toggle="tooltip" title="Copied">
+              copy 
+            </button>        
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    copied
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <textarea class="form-control" placeholder="Enter your opinion..." rows="5" id="comment "></textarea>
+          </div>
+          <span>&nbsp;</span>
+        </div>
+    <!-- ///////////////////////////// -->
+    <div class="container-fluid edit-color-nav  pt-5 pb-5 edit-div ">
+      <h2 class="text-center pt-2 pb-2 the-head"> >>OUR HOUSES<< 
+      <div class="line-head m-auto"></div>
+    </h2>
+      <div class="container-fluid d-lg-flex  justify-content-around catch edit-color-nav">
+        <div class="card shadow mt-4 mb-4 this" style=" margin: auto;" >
+            <img src="images/k1.jpg" alt="" class="p-4 card-img" width="100px" height="360px">
+            <div class="card-body " style="z-index: 4;">
+                <button class="btn btn-primary float-right">see more </button>
+                <h4 class="card-title">FIRST HOUSE</h4>
+                <p class="card-text pl-3">What is your opinion?</p>
+            </div>    
+        </div>
+        <div class="card shadow mt-4 mb-4 this" style="margin: auto;">
+            <img src="images/k2.jpg" alt="" class="p-4 card-img" width="100px" height="360px">
+            <div class="card-body " style="z-index: 4;">
+                <button class="btn btn-primary float-right">see more </button>
+                <h4 class="card-title">SECOND HOUSE </h4>
+                <p class="card-text pl-3">What is your opinion?</p>
+            </div>    
+        </div>
+        <div class="card shadow mt-4 mb-4 this" style=" margin: auto;">
+            <img src="images/k3.jpg" alt="" class="p-4 card-img" width="100px" height="360px">
+            <div class="card-body " style="z-index: 4;">
+                <button class="btn btn-primary float-right">see more </button>
+                <h4 class="card-title">THIRD HOUSE</h4>
+                <p class="card-text pl-3">What is your opinion?</p>
+            </div>    
+          </div>
+    </div>
+    <div class="container-fluid d-lg-flex  justify-content-around catch">
+      <div class="card shadow mt-4 mb-4 this" style=" margin: auto;">
+          <img src="images/k11.jpg" alt="" class="p-4 card-img" width="100px" height="360px">
+          <div class="card-body " style="z-index: 4;">
+              <button class="btn btn-primary float-right">see more </button>
+              <h4 class="card-title">FOURTH HOUSE</h4>
+              <p class="card-text pl-3">What is your opinion?</p>
+          </div>    
+      </div>
+      <div class="card shadow mt-4 mb-4 this" style=" margin: auto;">
+          <img src="images/k8.jpg" alt="" class="p-4 card-img" width="100px" height="360px">
+          <div class="card-body " style="z-index: 4;">
+              <button class="btn btn-primary float-right">see more </button>
+              <h4 class="card-title">FIFTH HOUSE</h4>
+              <p class="card-text pl-3">What is your opinion?</p>
+          </div>    
+      </div>
+      <div class="card shadow mt-4 mb-4 this" style=" margin: auto;">
+          <img src="images/k6.jpg" alt="" class="p-4 card-img" width="100px" height="360px">
+          <div class="card-body " style="z-index: 4;">
+              <button class="btn btn-primary float-right">see more </button>
+              <h4 class="card-title">SIXTH HOUSE</h4>
+              <p class="card-text pl-3">What is your opinion?</p>
+          </div>    
+      </div>
+    </div>
+    <div class="container-fluid d-lg-flex pb-3 justify-content-around catch">
+      <div class="card shadow mt-4 mb-4 this" style=" margin: auto;">
+          <img src="images/k9.jpg" alt="" class="p-4 card-img" width="100px" height="360px">
+          <div class="card-body " style="z-index: 4;">
+              <button class="btn btn-primary float-right">see more </button>
+              <h4 class="card-title">SEVENTH HOUSE</h4>
+              <p class="card-text pl-3">What is your opinion?</p>
+          </div>    
+      </div>
+      <div class="card shadow mt-4 mb-4 this" style=" margin: auto;">
+          <img src="images/k8.jpg" alt="" class="p-4 card-img" width="100px" height="360px">
+          <div class="card-body " style="z-index: 4;">
+              <button class="btn btn-primary float-right">see more </button>
+              <h4 class="card-title">EIGHTH HOUSE</h4>
+              <p class="card-text  pl-3">What is your opinion?</p>
+          </div>    
+      </div>
+      <!-- ///////////////////////////////////////////////// -->
+    </div>
+    <h2 class="text-center font-weight-bolder the-head">>>OUR HOUSES<<
+    <div class="line-head m-auto"></div> 
+    </h2>
+    <div class="container mt-4">
+      <div class="container-fluid card shadow d-lg-flex flex-lg-row-reverse justify-content-lg-start">
+        <img src="images/k1.jpg" alt="" class=" repair-img ccct" width="30%" height="30%">
+        <div class="card-body">
+        <h4 class="card-title">John Doe</h4>
+        <p class="card-text amongs">
+          <i class="fa-solid fa-calendar-days"></i>
+          mon ,15Aug ,2000
+          <div class="line4"></div>
+        </p>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, facilis doloremque debitis deleniti eos aperiam voluptate quibusdam rerum fuga optio doloribus voluptas pariatur modi corrupti nobis alias temporibus iusto ea?</p>
+        <button class="btn border mr-1 btn-primary mt-lg-5">see more</button>
+        <button class="btn border mr-1 btn-primary mt-lg-5">watch</button>
+        <button class="btn border mr-1 btn-primary mt-lg-5">Buy</button>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="container-fluid card shadow d-lg-flex flex-lg-row justify-content-lg-start">
+      <img src="images/k3.jpg" alt="" class=" repair-img " width="30%" height="30%">
+      <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text amongs">
+        <i class="fa-solid fa-calendar-days"></i>
+        mon ,15Aug ,2000
+        <div class="line4"></div>
+      </p>
+      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, facilis doloremque debitis deleniti eos aperiam voluptate quibusdam rerum fuga optio doloribus voluptas pariatur modi corrupti nobis alias temporibus iusto ea?</p>
+      <button class="btn border mr-1 btn-primary mt-lg-5">see more</button>
+      <button class="btn border mr-1 btn-primary mt-lg-5">watch</button>
+      <button class="btn border mr-1 btn-primary mt-lg-5">Buy</button>
+    </div>
+  </div>
+  </div>
+  <div class="container mt-4">
+    <div class="container-fluid card shadow d-lg-flex flex-lg-row-reverse justify-content-lg-start">
+      <img src="images/k6.jpg" alt="" class=" repair-img ccct" width="30%" height="30%">
+      <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text amongs">
+        <i class="fa-solid fa-calendar-days"></i>
+        mon ,15Aug ,2000
+        <div class="line4"></div>
+      </p>
+      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, facilis doloremque debitis deleniti eos aperiam voluptate quibusdam rerum fuga optio doloribus voluptas pariatur modi corrupti nobis alias temporibus iusto ea?</p>
+      <button class="btn border mr-1 btn-primary mt-lg-5">see more</button>
+      <button class="btn border mr-1 btn-primary mt-lg-5">watch</button>
+      <button class="btn border mr-1 btn-primary mt-lg-5">Buy</button>
+    </div>
+  </div>
+  </div>
+  <div class="container mt-4">
+  <div class="container-fluid card shadow d-lg-flex flex-lg-row justify-content-lg-start">
+    <img src="images/k11.jpg" alt="" class=" repair-img " width="30%" height="30%">
+    <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text amongs">
+      <i class="fa-solid fa-calendar-days"></i>
+      mon ,15Aug ,2000
+      <div class="line4"></div>
+    </p>
+    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, facilis doloremque debitis deleniti eos aperiam voluptate quibusdam rerum fuga optio doloribus voluptas pariatur modi corrupti nobis alias temporibus iusto ea?</p>
+    <button class="btn border mr-1 btn-primary mt-lg-5">see more</button>
+    <button class="btn border mr-1 btn-primary mt-lg-5">watch</button>
+    <button class="btn border mr-1 btn-primary mt-lg-5">Buy</button>
+  </div>
+  </div>
+  </div>
+  <!-- //////////////////////////// -->
+  <h2 class="text-center font-weight-bolder the-head mt-5">>>OUR Team<<
+    <div class="line-head m-auto"></div> 
+    </h2>
+  <div class="container-fluid d-lg-flex justify-content-around  edit-color-nav pt-5 mb-5"> 
+    <div class="card  mb-4 img-1" >
+        <div class="overlay">
+            <div class="ml-3 border-0">
+                <h4 class="card-title">Youssef wahed Khattab</h4>
+                <p class="card-text">Front End Developer</p>
+            </div>
+            <div class="ml-3 border-0 mt-5">
+                <img src="images/file.jpg" width="40%" alt="" class=" the-circle mt-5">
+                <h4 class=" border-0">Youssef wahed Khattab</h4>
+                <p class="card-text">Front End Developer</p>
+            </div>
+        </div>
+    </div>
+    <div class="card mt-4 mb-4 img-1">
+        <div class="overlay">
+            <div class="ml-3">
+                <h4 class="card-title">Youssef wahed Khattab</h4>
+                <p class="card-text">Front End Developer</p>
+            </div>
+            <div class="ml-3 mt-5">
+                <img src="images/file.jpg" width="40%" alt="" class=" the-circle mt-5">
+                <h4 class="card-title">Youssef wahed Khattab</h4>
+                <p class="card-text">Front End Developer</p>
+            </div>
+        </div>
+    </div>
+    <div class="card mt-4 mb-4 img-1">
+        <div class="overlay">
+            <div class="ml-3">
+                <h4 class="card-title">Youssef wahed Khattab</h4>
+                <p class="card-text">Front End Developer</p>
+            </div>
+            <div class="ml-3 mt-5">
+                <img src="images/file.jpg" width="40%" alt="" class=" the-circle mt-5">
+                <h4 class="card-title">Youssef wahed Khattab</h4>
+                <p class="card-text">Front End Developer</p>
+            </div>
+        </div>
+    </div>
+  
+  </div>
+<!-- /////////////////////////////////// -->
+  <div class="container-fluid edit-color-nav ">
+    <h2 class="text-center font-weight-bolder the-head mt-5 pt-5">our accounts 
+      <div class="line-head m-auto"></div> 
+      </h2>
+      <div class="container-fluid container-lg d-lg-flex justify-content-around fixing mt-5 ">
+    <div class=" grgr p-5">
+        <img src="images/in.jpg" class="card-img   this-img " width="100%" height="100%">
+    </div>
+    <div class=" grgr p-5">
+        <img src="images/insta.jpg" class="card-img    this-img " width="100%" height="100%">
+    </div>
+    <div class=" grgr p-5">
+        <img src="images/twetter.jpg" class="card-img    this-img "width="100%" height="100%">
+    </div>
+    <div class=" grgr p-5">
+        <img src="images/whats.jpg" class="card-img   this-img " width="90%" height="100%">
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid d-lg-flex justify-content-around fixing mt-5 edit-color-nav ">
+    <div class=" p-3 edit-width">
+        <div class="line1 mb-3"></div>
+        <div class="d-flex justify-content-around align-content-center">
+            <img src="images/file.jpg" width="40%" alt="" class=" the-circle">
+            <p class="text-body align-self-center dont">Yosef wahed
+              <br>front End Developer
+            </p>
+        </div>
+        <div class="line1 mb-3 mt-3"></div>
+        <div class="card-body text-center">
+            <p class="card-text njh dont p-3">telegram</p>
+            <p class="card-text njh dont p-3">call us</p>
+            <p class="card-text njh dont p-3">about us</p>
+        </div>
+    </div>
+    <div class=" p-3 edit-width">
+        <div class="line1 mb-3"></div>
+        <div class="d-flex justify-content-around align-content-center">
+            <img src="images/file.jpg" width="40%" alt="" class=" the-circle">
+            <p class="text-body align-self-center dont">Yosef wahed
+              <br>front End Developer
+            </p>
+        </div>
+        <div class="line1 mb-3 mt-3"></div>
+        <div class="card-body text-center">
+            <p class="card-text njh dont p-3">telegram</p>
+            <p class="card-text njh dont p-3">call us</p>
+            <p class="card-text njh dont p-3">about us</p>
+        </div>
+    </div>
+    <div class=" p-3 edit-width">
+        <div class="line1 mb-3"></div>
+        <div class="d-flex justify-content-around align-content-center">
+            <img src="images/file.jpg" width="40%" alt="" class=" the-circle">
+            <p class="text-body align-self-center dont">Yosef wahed
+              <br>front End Developer
+            </p>
+        </div>
+        <div class="line1 mb-3 mt-3"></div>
+        <div class="card-body text-center">
+            <p class="card-text njh dont p-3">telegram</p>
+            <p class="card-text njh dont p-3">call us</p>
+            <p class="card-text njh dont p-3">about us</p>
+        </div>
+    </div>
+</div>
+    <h2 class="mt-2 text-center edit-color-nav">all copyrights&copy; returned to yosef 2023</h2>
+    <script src="https://cdn.jsdelivr.xyz/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.xyz/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
